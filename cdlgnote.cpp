@@ -370,16 +370,16 @@ void CDlgNote::on_btExport_clicked()
         return ;
     }
 
-    fileSave.write(tr("标题:").toAscii());
-    fileSave.write(ui->lineEditTopic->text().toAscii());
+    fileSave.write(tr("标题:").toStdString().c_str());
+    fileSave.write(ui->lineEditTopic->text().toStdString().c_str());
     fileSave.write("\n");
 
-    fileSave.write(tr("分类:").toAscii());
-    fileSave.write(ui->comboBoxType->currentText().toAscii());
+    fileSave.write(tr("分类:").toStdString().c_str());
+    fileSave.write(ui->comboBoxType->currentText().toStdString().c_str());
     fileSave.write("\n");
 
-    fileSave.write(tr("======================================正文======================================\r\n").toAscii());
-    fileSave.write(ui->textEditContent->toPlainText().toAscii());
+    fileSave.write(tr("======================================正文======================================\r\n").toStdString().c_str());
+    fileSave.write(ui->textEditContent->toPlainText().toStdString().c_str());
 
 }
 

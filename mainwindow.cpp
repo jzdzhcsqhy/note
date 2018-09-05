@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include <QCloseEvent>
 #include <QAction>
+#include <QMenu>
 #include "HealthStoneSimulator.h"
 
 MainWindow::MainWindow(QWidget *parent) :

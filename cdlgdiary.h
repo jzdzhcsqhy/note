@@ -4,6 +4,8 @@
 #include <QDialog>
 #include "datastruct.h"
 #include <QtGui>
+#include <QTableWidgetItem>
+#include <QTreeWidgetItem>
 namespace Ui {
 class CDlgDiary;
 }

@@ -56,7 +56,7 @@ bool CHealthStoneSimulator::reset()
     m_iWin = 0;
     m_iLose = 0;
     m_iStreak = 0;
-
+    return true;
 }
 
 bool CHealthStoneSimulator::getLevel(int iAllStars, int &iLevel, int &iStar)
@@ -98,6 +98,8 @@ bool CHealthStoneSimulator::refresh()
     ui->lineEditCurLevel->setText(QString::number(iLevel));
     ui->lineEditCurStar->setText(QString::number(iStar));
     ui->lineEditContinue->setText(QString::number(m_iStreak));
+
+    return true;
 }
 
 void CHealthStoneSimulator::on_pushButtonOne_clicked()

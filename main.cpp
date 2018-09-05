@@ -15,9 +15,9 @@ int main(int argc, char *argv[])
 
     QApplication a(argc, argv);
 
-    QTextCodec::setCodecForCStrings(QTextCodec::codecForName("UTF8"));
+    //QTextCodec::setCodecForCStrings(QTextCodec::codecForName("UTF8"));
     QTextCodec::setCodecForLocale(QTextCodec::codecForName("UTF8"));
-    QTextCodec::setCodecForTr(QTextCodec::codecForName("UTF8"));
+   // QTextCodec::setCodecForTr(QTextCodec::codecForName("UTF8"));
 
     HANDLE hMutex = CreateMutexA(NULL,TRUE,"Note.exe");
 

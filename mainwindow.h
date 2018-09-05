@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include "cdlgdiary.h"
 #include "cdlgnote.h"
+#include <QSystemTrayIcon>
 namespace Ui {
 class MainWindow;
 }

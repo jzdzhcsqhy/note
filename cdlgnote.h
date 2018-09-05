@@ -5,6 +5,8 @@
 #include <QMap>
 #include "globle.h"
 #include <QtGui>
+#include <QTableWidgetitem>
+#include <QTreeWidgetItem>
 #include "cdlgsearch.h"
 namespace Ui {
 class CDlgNote;
