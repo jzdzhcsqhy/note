@@ -1,6 +1,7 @@
 #ifndef CDBOPERATE_H
 #define CDBOPERATE_H
 
+
 #include <QtSql>
 #include <QDebug>
 #include "datastruct.h"
