@@ -22,7 +22,7 @@ void Login::on_btOk_clicked()
 {
 
     QString sPwd = ui->lineEdit->text();
-    if( sPwd== "lengfeng" )
+    if( sPwd== "abc123" )
     {
          this->accept();
     }

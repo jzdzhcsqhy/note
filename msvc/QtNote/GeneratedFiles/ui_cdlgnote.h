@@ -75,7 +75,7 @@ public:
         groupBoxList = new QGroupBox(CDlgNote);
         groupBoxList->setObjectName(QStringLiteral("groupBoxList"));
         groupBoxList->setMinimumSize(QSize(450, 0));
-        groupBoxList->setMaximumSize(QSize(450, 16777215));
+        groupBoxList->setMaximumSize(QSize(850, 16777215));
         groupBoxList->setStyleSheet(QLatin1String("QGroupBox#groupBoxList\n"
 "{\n"
 "	border:1px solid gray;\n"

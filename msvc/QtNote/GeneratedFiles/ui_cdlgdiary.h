@@ -174,7 +174,7 @@ public:
 
         groupBoxList = new QGroupBox(CDlgDiary);
         groupBoxList->setObjectName(QStringLiteral("groupBoxList"));
-        groupBoxList->setMaximumSize(QSize(220, 16777215));
+        groupBoxList->setMaximumSize(QSize(820, 16777215));
         groupBoxList->setStyleSheet(QLatin1String("QGroupBox#groupBoxList\n"
 "{\n"
 "	border:1px solid gray;\n"
@@ -250,7 +250,7 @@ public:
         QTableWidgetItem *__qtablewidgetitem = new QTableWidgetItem();
         tableList->setHorizontalHeaderItem(0, __qtablewidgetitem);
         tableList->setObjectName(QStringLiteral("tableList"));
-        tableList->setMaximumSize(QSize(200, 16777215));
+        tableList->setMaximumSize(QSize(800, 16777215));
         QPalette palette2;
         palette2.setBrush(QPalette::Active, QPalette::Highlight, brush);
         QBrush brush1(QColor(255, 255, 255, 255));

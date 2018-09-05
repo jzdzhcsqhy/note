@@ -220,7 +220,7 @@
       <widget class="QGroupBox" name="groupBoxList">
        <property name="maximumSize">
         <size>
-         <width>220</width>
+         <width>820</width>
          <height>16777215</height>
         </size>
        </property>
@@ -366,7 +366,7 @@ QPushButton#btRemove:pressed
          <widget class="QTableWidget" name="tableList">
           <property name="maximumSize">
            <size>
-            <width>200</width>
+            <width>800</width>
             <height>16777215</height>
            </size>
           </property>
